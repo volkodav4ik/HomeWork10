@@ -30,6 +30,6 @@ public class HW10T2 {
         int[] aH = new int[]{x, y};
         Arrays.sort(aB);
         Arrays.sort(aH);
-        return (aB[0] <= aH[0] && aB[1] <= aH[1]) || (aB[1] <= aH[0] && aB[2] <= aH[1]) || (aB[0] <= aH[0] && aB[2] <= aH[1]);
+        return (aB[0] <= aH[0] && aB[1] <= aH[1]);
     }
 }
